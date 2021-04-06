@@ -4,8 +4,6 @@ import './header.css';
 import React from 'react';
 
 const Header = ({ siteTitle }) => {
-  console.log('DEBUG Header');
-
   const { languages, originalPath, t } = useI18next();
   return (
     <header className="main-header">
